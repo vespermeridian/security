@@ -1,4 +1,4 @@
-# One-Liners and Command References
+# One-Liners, Command References, and Links
 
 ## Sorting and Searching
 
@@ -15,3 +15,18 @@ cut -d ':' -f2 text.txt  | uniq -c
 ```
 grep -c <FILENAME> *
 ```
+
+## RATs and Servers
+
+*Python HTTP Server Listener*
+
+```python -m http.server 8080```
+
+*netcat listener*
+
+```nc -nlvp 8080```
+
+## Links
+
+[Cyber Chef - Cyber Swiss Army Knife](https://gchq.github.io/CyberChef/)
+

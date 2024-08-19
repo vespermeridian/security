@@ -60,9 +60,12 @@
 
 ## Active Hacking
 
-### IDOR - Insecure Direct Object Reference
+### IDOR - Insecure Direct Object Reference / Enumeration
 Investigate IDOR objects and reference numbers
 
+   * **Quick Reference IDOR/Enumeration Ideas**
+      * Try negative numbers and symbols such as : ```-1``` or ```*```
+      
 * **IDOR Automation**
    * [**IDOR Hunter**](https://github.com/SKHTW/IDOR_Scanner)
 
